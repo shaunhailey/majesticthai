@@ -1,0 +1,17 @@
+<ul>
+  {this.state.appetizers.map((app, i) =>
+    <li key={i}>
+      {app.dish}
+    </li>
+  )}
+  {this.state.entrees.map((app, i) =>
+    <li key={i}>
+      {app.dish}
+    </li>
+  )}
+  {this.state.desserts.map((app, i) =>
+    <li key={i}>
+      {app.dish}
+    </li>
+  )}
+</ul>
